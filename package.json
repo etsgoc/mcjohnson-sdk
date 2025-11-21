@@ -1,15 +1,18 @@
 {
   "name": "@mcjohnson/miniapp-developer-sdk",
   "version": "1.0.0",
-  "description": "SDK for building McJohnson Wallet mini apps",
+  "description": "SDK for building McJohnson mini apps",
   "main": "index.js",
+  "bin": {
+    "mcj": "./cli/mcj-cli.js"
+  },
   "scripts": {
     "package": "node packager/package-miniapp.js",
     "sign": "node tools/sign-cli.js",
     "verify": "node tools/verify.js",
     "publish": "node tools/publish-ipfs.js"
   },
-  "keywords": ["mcjohnson", "miniapp", "wallet", "web3"],
+  "keywords": ["mcjohnson", "miniapp", "wallet", "web3", "dapp"],
   "author": "McJohnson Team",
   "license": "MIT",
   "dependencies": {
@@ -20,7 +23,9 @@
   "devDependencies": {
     "@types/node": "^20.0.0"
   },
-  "bin": {
-    "mcj": "./cli/mcj-cli.js"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mcjohnson-miniapp-sdk.git"
+  },
+  "homepage": "https://docs.mcjohnson.io"
 }
