@@ -348,7 +348,7 @@ window.mcj.permissions.request('camera')
 
 ## Next Steps
 
-- Read the full [API Reference](./API.md)
+- Read the full [API Reference](./API_REFERENCE.md)
 - Check out [Example Apps](./examples/)
 - Join our [Discord](https://discord.gg/mcjohnson)
 - Submit your app to the store!
