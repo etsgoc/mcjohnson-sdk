@@ -1,0 +1,16 @@
+{
+  "name": "My Mini App",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "description": "A cool mini app for McJohnson Wallet",
+  "punchline": "Short tagline here",
+  "developer": "Your Name",
+  "category": "Tools",
+  "permissions": ["wallet", "username"],
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  },
+  "website": "https://yoursite.com",
+  "supportUrl": "https://yoursite.com/support"
+}
