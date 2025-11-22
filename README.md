@@ -185,7 +185,7 @@ node tools/publish-ipfs.js output.zip
 ### 4. Users Install
 
 ```typescript
-import { installFromIPFS } from '@mcjohnson/miniapp-sdk';
+import { installFromIPFS } from 'mcjohnson-sdk';
 
 const result = await installFromIPFS('QmXXXXXX...');
 if (result.success) {
@@ -198,7 +198,7 @@ if (result.success) {
 ### Install Sample App
 
 ```typescript
-import { installSampleMiniApp } from '@mcjohnson/miniapp-sdk';
+import { installSampleMiniApp } from 'mcjohnson-sdk';
 
 // Installs a demo app for testing
 await installSampleMiniApp();
@@ -210,7 +210,7 @@ await installSampleMiniApp();
 import { 
   updatePermissions, 
   hasPermission 
-} from '@mcjohnson/miniapp-sdk';
+} from 'mcjohnson-sdk';
 
 // Grant permission
 await updatePermissions(
@@ -264,7 +264,7 @@ await revokeAllPermissions(appId);
 ### Manifest Utils
 
 ```typescript
-import { validateManifest } from '@mcjohnson/miniapp-sdk';
+import { validateManifest } from 'mcjohnson-sdk';
 
 const result = validateManifest(manifest);
 if (!result.ok) {
@@ -297,7 +297,7 @@ if (!result.ok) {
 ```bash
 # Container App (.env)
 EXPO_PUBLIC_MCJ_RPC_URL=https://polygon-amoy.g.alchemy.com/v2/YOUR_KEY
-EXPO_PUBLIC_MCJ_CHAIN_ID=80002
+EXPO_PUBLIC_MCJ_CHAIN_ID=137
 EXPO_PUBLIC_LTCO_ADDR=0xYourTokenAddress
 EXPO_PUBLIC_HANDLE_REGISTRY_ADDRESS=0xYourRegistryAddress
 EXPO_PUBLIC_MCJ_TOKEN_DECIMALS=18
