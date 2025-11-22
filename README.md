@@ -8,10 +8,10 @@
 
 ```bash
 # Install SDK in your React Native project
-npm install @mcjohnson/miniapp-sdk
+npm install mcjohnson-sdk
 
 # Or with yarn
-yarn add @mcjohnson/miniapp-sdk
+yarn add mcjohnson-sdk
 ```
 
 ### Basic Usage
@@ -21,7 +21,7 @@ import {
   initializeSDK, 
   SandboxWebView, 
   getInstalledApps 
-} from '@mcjohnson/miniapp-sdk';
+} from 'mcjohnson-sdk';
 
 // Initialize on app start
 await initializeSDK();
