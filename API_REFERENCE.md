@@ -708,8 +708,5 @@ async function getBalance() {
 See `QUICK_START.md` for complete working examples and tutorials.
 
 ## Support
-
-- 📚 [Documentation](https://docs.mcjohnson.io)
-- 💬 [Discord](https://discord.gg/mcjohnson)
-- 📧 [Email](mailto:dev-support@mcjohnson.io)
+- 📧 [Email](mailto:esithole937@gmail.com)
 - 🐛 [Issues](https://github.com/mcjohnson/miniapp-sdk/issues)
