@@ -709,4 +709,4 @@ See `QUICK_START.md` for complete working examples and tutorials.
 
 ## Support
 - 📧 [Email](mailto:esithole937@gmail.com)
-- 🐛 [Issues](https://github.com/mcjohnson/miniapp-sdk/issues)
+- 🐛 [Issues](https://github.com/etsgoc/mcjohnson-sdk/issues)
