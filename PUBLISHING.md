@@ -22,7 +22,7 @@ npm run publish output.zip
 
 ## Step 4: Submit to Registry
 
-Email: miniapps@mcjohnson.io
+Email: esithole937@gmail.com
 
 Include:
 - IPFS CID
