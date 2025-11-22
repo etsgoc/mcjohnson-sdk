@@ -1,5 +1,5 @@
 {
-  "name": "@mcjohnson/miniapp-developer-sdk",
+  "name": "mcjohnson-sdk",
   "version": "1.0.0",
   "description": "SDK for building McJohnson mini apps",
   "main": "index.js",
@@ -38,10 +38,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk.git"
+    "url": "https://github.com/etsgoc/mcjohnson-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk/issues"
+    "url": "https://github.com/etsgoc/mcjohnson-sdk/issues"
   },
-  "homepage": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk#readme"
+  "homepage": "https://github.com/etsgoc/mcjohnson-sdk#readme"
 }
