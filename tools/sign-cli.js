@@ -60,4 +60,4 @@ Examples:
   }
 }
 
-module.exports = { genKeys, sign };module.exports = { genKeys, sign };
+module.exports = { genKeys, sign };
