@@ -358,9 +358,4 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 MIT © McJohnson Team
 
-## 🔗 Links
 
-- [Documentation](https://docs.mcjohnson.io/miniapps)
-- [Example Apps](https://github.com/mcjohnson/miniapp-examples)
-- [Developer Portal](https://developers.mcjohnson.io)
-- [Community Discord](https://discord.gg/mcjohnson)
