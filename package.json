@@ -7,6 +7,7 @@
     "mcj": "./cli/mcj-cli.js"
   },
   "scripts": {
+    "test": "node test/test-manifest.js"
     "package": "node packager/package-miniapp.js",
     "sign": "node tools/sign-cli.js",
     "verify": "node tools/verify.js",
@@ -16,16 +17,31 @@
   "author": "McJohnson Team",
   "license": "MIT",
   "dependencies": {
-    "archiver": "^6.0.0",
+    "archiver": "^7.0.1",
     "tweetnacl": "^1.0.3",
-    "ipfs-http-client": "^60.0.0"
+    "ipfs-http-client": "^60.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.0.0"
   },
+  "files": [
+    "cli/",
+    "packager/",
+    "tools/",
+    "templates/",
+    "types/",
+    "utils/",
+    "*.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mcjohnson-miniapp-sdk.git"
+    "url": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk.git"
   },
-  "homepage": "https://docs.mcjohnson.io"
+  "bugs": {
+    "url": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk/issues"
+  },
+  "homepage": "https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk#readme"
 }
