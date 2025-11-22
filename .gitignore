@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+*.zip
+dist/
+build/
+
+# Keys and signatures (NEVER commit these!)
+*.key
+private.key
+public.key
+*.sig
+manifest.sig
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files
+test-output/
+coverage/
+sdk-test/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

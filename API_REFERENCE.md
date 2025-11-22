@@ -387,6 +387,8 @@ await window.mcj.notifications.send(
   'You reached level 10!'
 );
 
+**Note**: The notification will automatically include your app ID for deep linking. When users tap the notification, they'll be taken directly to your app.
+
 // With timer
 setTimeout(() => {
   window.mcj.notifications.send(
