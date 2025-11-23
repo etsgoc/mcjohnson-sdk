@@ -22,7 +22,7 @@ npm run publish output.zip
 
 ## Step 4: Submit to Registry
 
-Email: esithole937@gmail.com
+Email: [Registry Team](mailto:esithole937@gmail.com)
 
 Include:
 - IPFS CID
