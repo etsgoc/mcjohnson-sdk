@@ -2,7 +2,7 @@
 
 > Build, test, and publish mini-applications for the McJohnson Wallet ecosystem.
 
-[![npm version](https://img.shields.io/npm/v/@mcjohnson/miniapp-developer-sdk.svg)](https://www.npmjs.com/package/@mcjohnson/miniapp-developer-sdk)
+[![npm version](https://img.shields.io/npm/v/@mcjohnson/miniapp-developer-sdk.svg)](https://www.npmjs.com/package/mcjohnson-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 What is This?
@@ -15,7 +15,7 @@ This SDK provides **command-line tools** for mini app developers to:
 - 📤 **Publish** to IPFS for decentralized distribution
 - 🧪 **Test** locally with live preview server
 
-**Note**: This SDK is for **mini app developers**, not container app developers. If you're building the wallet/container app, see our [Container SDK](https://github.com/etsgoc/mcjohnson-sdk).
+**Note**: This SDK is for **McJohnson mini app developers**
 
 ---
 
@@ -23,7 +23,7 @@ This SDK provides **command-line tools** for mini app developers to:
 
 ### Installation
 ```bash
-npm install -g @mcjohnson/miniapp-developer-sdk
+npm install -g mcjohnson-sdk
 ```
 
 ### Create Your First Mini App
@@ -323,7 +323,7 @@ To get your app featured in the Explore tab:
    - Privacy policy URL
 4. Submit and wait for review (3-5 days)
 
-**Alternatively**, email: [registry@mcjohnson.io](mailto:registry@mcjohnson.io)
+**Alternatively**, email: [Registry Team](mailto:esithole937@gmail.com)
 
 ---
 
@@ -334,13 +334,13 @@ To get your app featured in the Explore tab:
 mcj dev --qr
 ```
 
-1. Scan QR code with McJohnson Wallet
-2. Go to **Developer Portal** in wallet
+1. Scan QR code with McJohnson App
+2. Go to **Developer Portal** in wallet > Settings
 3. Your app opens in production environment
 4. All SDK features work
 5. Make changes, save, and refresh
 
-### Option 2: Manual Installation
+### Option 2: Manual Installation (not available yet)
 
 1. Build your app: `mcj build`
 2. Copy `dist.zip` to your device
@@ -368,7 +368,6 @@ In wallet:
 - 📖 [Quick Start Guide](./QUICK_START.md) - Build your first app
 - 🔧 [API Reference](./API_REFERENCE.md) - Complete SDK documentation
 - 🤝 [Contributing](./CONTRIBUTING.md) - How to contribute
-- 📋 [Examples](./examples/) - Sample mini apps
 
 ---
 
@@ -382,6 +381,8 @@ Perfect for building:
 - 🛍️ **Marketplaces** - Buy/sell/trade
 - 🤝 **Social Apps** - Forums, DAOs
 - 🔧 **Utilities** - Calculators, converters
+  
+**Note** - there are no limitations as longs as you follow the miniapp guidelines
 
 ---
 
@@ -442,7 +443,7 @@ mcj build
 
 - 📧 **Email**: [dev@mcjohnson.io](mailto:dev@mcjohnson.io)
 - 💬 **Discord**: [Join Community](https://discord.gg/mcjohnson)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/etsgoc/mcjohnson-miniapp-developer-sdk/issues)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/etsgoc/mcjohnson-sdk/issues)
 - 📚 **Docs**: [Full Documentation](https://docs.mcjohnson.io)
 
 ---
@@ -461,7 +462,7 @@ MIT © McJohnson Team
 
 ## 🚀 Get Started Now
 ```bash
-npm install -g @mcjohnson/miniapp-developer-sdk
+npm install -g mcjohnson-sdk
 mcj init my-first-app
 cd my-first-app
 mcj dev --qr
