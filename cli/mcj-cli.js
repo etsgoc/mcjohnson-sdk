@@ -126,6 +126,62 @@ Examples:
       process.exit(1);
     });
     
+} else if (command === 'dev') {
+  const showQR = process.argv.includes('--qr');
+  const port = parseInt(process.argv.find(arg => arg.startsWith('--port='))?.split('=')[1] || '3000');
+  
+  console.log('🔧 Starting development server...\n');
+  
+  const { startDevServer } = require('../tools/dev-server.js');
+  startDevServer('.', port, showQR);
+  
+} else if (command === 'test') {
+  const { validateManifest } = require('../utils/manifest.js');
+  const fs = require('fs');
+  
+  console.log('🧪 Testing mini app...\n');
+  
+  // Check if manifest exists
+  if (!fs.existsSync('manifest.json')) {
+    console.error('❌ manifest.json not found');
+    process.exit(1);
+  }
+  
+  // Validate manifest
+  const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+  const result = validateManifest(manifest);
+  
+  if (result.ok) {
+    console.log('✅ Manifest is valid');
+  } else {
+    console.log('❌ Manifest has errors:');
+    result.errors.forEach(err => console.log(`  - ${err}`));
+  }
+  
+  // Check for required files
+  console.log('\n📁 Checking files:');
+  
+  const requiredFiles = ['index.html', 'manifest.json'];
+  const optionalFiles = ['icon-48.png', 'icon-96.png'];
+  
+  requiredFiles.forEach(file => {
+    if (fs.existsSync(file)) {
+      console.log(`  ✅ ${file}`);
+    } else {
+      console.log(`  ❌ ${file} (required)`);
+    }
+  });
+  
+  optionalFiles.forEach(file => {
+    if (fs.existsSync(file)) {
+      console.log(`  ✅ ${file}`);
+    } else {
+      console.log(`  ⚠️  ${file} (recommended)`);
+    }
+  });
+  
+  console.log('');
+
 } else {
   console.log(`
 McJohnson Mini App CLI
@@ -133,12 +189,16 @@ McJohnson Mini App CLI
 Commands:
   init [name]              Create a new mini app
   build [dir] [output]     Package your app into a .zip
+  dev [--qr] [--port=3000] Start development server
+  test                     Test and validate your app
   sign gen-keys            Generate signing keys
   sign sign <manifest>     Sign a manifest file
   publish <file>           Publish to IPFS
   
 Examples:
   mcj init my-game
+  mcj dev --qr             # Start dev server with QR code
+  mcj test                 # Validate manifest and files
   mcj build . my-game.zip
   mcj sign gen-keys
   mcj sign sign manifest.json
