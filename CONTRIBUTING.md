@@ -67,8 +67,8 @@ Ready to code? Follow the guidelines below.
 ### Setup
 ```bash
 # Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/mcjohnson-miniapp-developer-sdk.git
-cd mcjohnson-miniapp-developer-sdk
+git clone https://github.com/YOUR_USERNAME/mcjohnson-sdk.git
+cd mcjohnson-sdk
 
 # Install dependencies
 npm install
@@ -82,7 +82,7 @@ mcj --help
 
 ### Project Structure
 ```
-mcjohnson-miniapp-developer-sdk/
+mcjohnson-sdk/
 ├── cli/
 │   └── mcj-cli.js          # Main CLI entry point
 ├── packager/
@@ -376,7 +376,7 @@ Contributors will be:
 ## 💬 Questions?
 
 - 📧 Email: [Supprt Team](mailto:esithole937@gmail.com)
-- 💬 Discord: [Join Community](https://discord.gg/mcjohnson)
+- 💬 Discord: [Join Community](https://discord.gg/Zcy6mV76)
 - 🐛 Issues: [GitHub Issues](https://github.com/etsgoc/mcjohnson-sdk/issues)
 
 ---
