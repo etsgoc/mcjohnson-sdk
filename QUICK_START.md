@@ -170,7 +170,7 @@ my-first-miniapp/
 
 ```typescript
 // In your container app
-import { installMiniAppManual } from '@mcjohnson/miniapp-sdk';
+import { installMiniAppManual } from 'mcjohnson-sdk';
 import * as FileSystem from 'expo-file-system';
 
 async function installMyApp() {
