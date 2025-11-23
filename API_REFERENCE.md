@@ -127,7 +127,7 @@ interface Transaction {
   to?: string;              // Recipient address
   value?: string;           // ETH value in wei (for native transfers)
   data?: string;            // Transaction data
-  chainId: number;          // Chain ID (80002 for Polygon Amoy)
+  chainId: number;          // Chain ID (137 for Polygon Mainnet)
   gasLimit?: string;        // Gas limit (estimated if not provided)
   nonce?: number;           // Nonce (auto-filled if not provided)
   
@@ -150,7 +150,7 @@ const tx = {
       amount: '1000000000000000000' // 1 LTCO (18 decimals)
     }
   },
-  chainId: 80002
+  chainId: 137
 };
 
 const result = await window.mcj.wallet.sign(tx);
@@ -179,7 +179,7 @@ const tx = {
   to: '0xContractAddress',
   data: data,
   value: '0',
-  chainId: 80002
+  chainId: 137
 };
 
 await window.mcj.wallet.sign(tx);
