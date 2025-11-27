@@ -36,5 +36,4 @@ Include:
 
 Users install via:
 1. Explore tab → Enter CID
-2. Scan QR code
-3. Registry (after approval)
+2. Registry (after approval)
