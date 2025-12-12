@@ -147,6 +147,29 @@ Users can install via:
 https://ipfs.io/ipfs/QmXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
+## 📤 Publishing to IPFS 
+
+The `mcj publish` command requires an IPFS gateway service:
+
+**Option 1: Web3.Storage (Free)**
+```bash
+# Get token from https://web3.storage
+export IPFS_API=https://api.web3.storage
+export WEB3_STORAGE_TOKEN=your_token
+mcj publish dist.zip
+```
+
+**Option 2: Pinata (Free tier available)**
+```bash
+# Get API from https://pinata.cloud
+export IPFS_API=https://api.pinata.cloud
+mcj publish dist.zip
+```
+
+**Option 3: Manual Upload**
+Upload your `dist.zip` manually to any IPFS service.
+
+
 ---
 
 ### `mcj test`
@@ -213,11 +236,28 @@ my-miniapp/
 **Categories:**
 - Games
 - Finance
-- Tools
-- Social
-- NFTs
-- Marketplace
+- Developer Tools
+- Social Networking
+- Music
+- Lifestyle
 - Utilities
+- Business
+- Education
+- Productivity
+- Airdrops
+- DeFi
+- Shopping
+- Health & Fitness
+- Navigation
+- Real Estate
+- Coding & Design
+- Religion & Spirituality
+- Movies & Culture
+- Sports
+- Photography & Art
+- News & Media
+- Travel
+
 
 **Available Permissions:**
 - `wallet` - Access wallet address & balance
@@ -469,5 +509,8 @@ mcj dev --qr
 ```
 
 **Build the future of decentralized applications!** 🎉
+
+
+
 
 
