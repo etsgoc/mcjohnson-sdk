@@ -4,7 +4,7 @@
   "description": "SDK for building McJohnson mini apps",
   "main": "index.js",
   "bin": {
-    "mcj": "./cli/mcj-cli.js"
+    "mcj": "cli/mcj-cli.js"
   },
   "scripts": {
     "test": "node test/test-manifest.js",
