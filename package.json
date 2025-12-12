@@ -1,6 +1,6 @@
 {
   "name": "mcjohnson-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SDK for building McJohnson mini apps",
   "main": "index.js",
   "bin": {
@@ -13,16 +13,23 @@
     "verify": "node tools/verify.js",
     "publish": "node tools/publish-ipfs.js"
   },
-  "keywords": ["mcjohnson", "miniapp", "wallet", "web3", "dapp"],
+  "keywords": [
+    "mcjohnson",
+    "miniapp",
+    "wallet",
+    "web3",
+    "dapp"
+  ],
   "author": "McJohnson Team",
   "license": "MIT",
   "dependencies": {
     "archiver": "^7.0.1",
-    "tweetnacl": "^1.0.3",
-    "ipfs-http-client": "^60.0.1",
-    "express": "^4.18.2",        
-    "qrcode-terminal": "^0.12.0", 
-    "chokidar": "^3.5.3" 
+    "chokidar": "^3.5.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.5",
+    "node-fetch": "^2.7.0",
+    "qrcode-terminal": "^0.12.0",
+    "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "^20.0.0"
@@ -48,3 +55,4 @@
   },
   "homepage": "https://github.com/etsgoc/mcjohnson-sdk#readme"
 }
+
