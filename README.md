@@ -2,7 +2,7 @@
 
 > Build, test, and publish mini-applications for the McJohnson Wallet ecosystem.
 
-[![npm version](https://img.shields.io/npm/v/@mcjohnson/miniapp-developer-sdk.svg)](https://www.npmjs.com/package/mcjohnson-sdk)
+[![npm version](https://img.shields.io/npm/v/mcjohnson-sdk.svg)](https://www.npmjs.com/package/mcjohnson-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 What is This?
@@ -363,7 +363,7 @@ To get your app featured in the Explore tab:
    - Privacy policy URL
 4. Submit and wait for review (3-5 days)
 
-**Alternatively**, email: [Registry Team](mailto:esithole937@gmail.com)
+**Alternatively**, email: [Registry Team](mailto:dev@mcjohnson.website)
 
 ---
 
@@ -481,10 +481,9 @@ mcj build
 
 ## 🆘 Support
 
-- 📧 **Email**: [dev@mcjohnson.io](mailto:dev@mcjohnson.io)
+- 📧 **Email**: [dev@mcjohnson.website](mailto:dev@mcjohnson.website)
 - 💬 **Discord**: [Join Community](https://discord.gg/mcjohnson)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/etsgoc/mcjohnson-sdk/issues)
-- 📚 **Docs**: [Full Documentation](https://docs.mcjohnson.io)
 
 ---
 
